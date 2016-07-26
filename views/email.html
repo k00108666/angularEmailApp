@@ -1,0 +1,25 @@
+
+
+
+<h1>gThis is the viewEmail View</h1>
+
+<div ng-init="checked = 'read'">
+
+Read: <input type="radio" ng-model="checked" value = "read" checked="checked">
+
+Reply: <input type="radio" ng-model="checked" value="reply">
+
+Forward: <input type="radio" ng-model="checked" value = "forward">
+
+</div>
+
+<div>
+
+<email-directive ng-show="checked == 'read'"></email-directive>
+
+<reply-email-directive ng-show="checked == 'reply'"></reply-email-directive>
+
+<forward-email-directive  ng-show="checked == 'forward'"></forward-email-directive>
+
+
+</div>
