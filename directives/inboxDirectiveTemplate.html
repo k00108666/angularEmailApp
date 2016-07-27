@@ -8,17 +8,15 @@
 
 
     <div ng-hide="!inbox.messages.length">
-
-        <input type="text" ng-model="inbox.search">
-
-
+        <label for="search">Search: </label>
+        <input id="search" type="text" ng-model="inbox.search">
 
     </div>
 
 
     <ul>
 
-        <li ng-show="!inbox.messages.length">
+        <li class="list-group-item-heading" ng-show="!inbox.messages.length">
                 You have no emails to show
         </li>
 
@@ -26,7 +24,7 @@
                 <div class="col-md-6">
                     <table class="table">
                         <thead>
-                        <try>
+                        <tr>
                             <th>From</th>
                             <th>Date</th>
                             <th>Subject</th>
@@ -34,7 +32,7 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr ng-repeat="message in inbox.messages | filter :{From : inbox.search}">
+                        <tr class="list-group-item-text" ng-repeat="message in inbox.messages | filter :{From : inbox.search}">
                             <td>{{message.From}}</td>
                             <td>{{message.Date | date: 'dd/mm/yy'}}</td>
                             <td>{{message.Subject}}</td>
@@ -54,8 +52,5 @@
 
 
     </ul>
-
-
-
 
     </div>

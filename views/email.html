@@ -1,15 +1,19 @@
 
 
 
-<h1>gThis is the viewEmail View</h1>
+<h1 class="col-md-4, text-center">This is the viewEmail View</h1>
 
-<div ng-init="checked = 'read'">
+<div ng-init="checked = 'read'" class="container-fluid, col-md-9">
 
-Read: <input type="radio" ng-model="checked" value = "read" checked="checked">
+<div class="radio">
+        <label><input type="radio" name="optradio" ng-model="checked" value="read">Read</label>
 
-Reply: <input type="radio" ng-model="checked" value="reply">
+        <label><input type="radio" name="optradio" ng-model="checked" value="reply">Reply</label>
 
-Forward: <input type="radio" ng-model="checked" value = "forward">
+        <label><input type="radio" name="optradio" ng-model="checked" value="forward">Forward</label>
+
+</div>
+</div>
 
 </div>
 

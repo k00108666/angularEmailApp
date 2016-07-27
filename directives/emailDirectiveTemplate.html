@@ -1,18 +1,24 @@
 
+<div class="form-group">
+    <div>
 
-<div>
+        <label for="emailAddress">From: </label>
+        <input contenteditable="false" id="emailAddress" value="{{email.message.From}}">
+        <label>Date: {{email.message.Date}}</label>
 
-
-    This is my email directive
-<div>
-   <p>{{email.message.From}}</p>
-    <p>{{email.message.Date}}</p>
-    <p>{{email.message.Subject}}</p>
-    <p>{{email.message.id}}</p>
-
-</div>
+    </div>
 
 
+
+    <br>
+    <label>{{email.message.Date}}</label>
+
+    <textarea contenteditable="false" class="form-control" rows="10" cols="10" id="emailMessage">
+
+
+        {{email.message.Subject}};
+
+    </textarea>
 
 
 </div>

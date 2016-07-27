@@ -1,19 +1,26 @@
 
 <div>
+<div class="form-group">
 
-<label>
-    From: <input  id="emailAddress" value="{{email.message.From}}">
-</label>
+    <label for="emailAddress">From: </label>
+    <input id="emailAddress" value="{{email.message.From}}">
+    <label>Date: {{email.message.Date}}</label>
+
+</div>
+
+
+
 <br>
+<label>{{email.message.Date}}</label>
 
-<br>
-<label>{{email.message.Date}}</label><br>
-
-<textarea rows="10" cols="10" id="emailMessage">
+<textarea class="form-control" rows="10" cols="10" id="emailMessage">
 
 
 {{email.message.Subject}};
 
 </textarea>
+
+
+    <button class="btn-info">Send</button>
 
 </div>

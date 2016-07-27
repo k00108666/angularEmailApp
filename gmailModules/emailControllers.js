@@ -44,6 +44,7 @@ emailModule.controller('inboxCtrl', function inboxCtrl(inboxFactory, $http) {
 
         }));
 
+
     this.deleteMessage = function(id, index){
 
         inboxFactory.deleteMessage(id, index);
@@ -97,8 +98,6 @@ emailModule.factory('inboxFactory', function inboxFactory ($http, $q, $location)
 
     };
 
-
-
     exports.deleteMessage = function(index) {
 
 
@@ -111,12 +110,7 @@ emailModule.factory('inboxFactory', function inboxFactory ($http, $q, $location)
       $location.path('inbox/email/' +id);
 
     };
-
-
-
-
-
-
+    
     return exports;
 
 });
@@ -156,6 +150,7 @@ emailModule.controller('emailViewCtrl', function emailCtrl(emailFactory, $routeP
 
        }))
 
+    this.date = new Date();
 
 });
 
@@ -197,7 +192,6 @@ emailModule.directive('forwardEmailDirective', function(){
 });
 
 emailModule.controller('emailReplyCtrl', function (emailFactory) {
-
 
 });
 
