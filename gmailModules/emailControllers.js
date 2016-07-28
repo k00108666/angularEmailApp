@@ -4,7 +4,7 @@
 
 var emailModule = angular.module('emailMod', ['ui.bootstrap']);
 
-console.log("Loading Email Mods");
+
 
 emailModule.directive('inboxDirective', function inboxDirective() {
 
@@ -58,15 +58,13 @@ emailModule.controller('inboxCtrl', function inboxCtrl(inboxFactory, $http) {
     };
 
 
-
-
     this.title = "Inbox";
 
 
 });
 
 
-emailModule.factory('inboxFactory', function inboxFactory ($http, $q, $location) {
+emailModule.factory('inboxFactory', function inboxFactory ($http, $q, $location ) {
 
     'use strict';
 
@@ -110,7 +108,7 @@ emailModule.factory('inboxFactory', function inboxFactory ($http, $q, $location)
       $location.path('inbox/email/' +id);
 
     };
-    
+
     return exports;
 
 });
@@ -186,9 +184,6 @@ emailModule.directive('forwardEmailDirective', function(){
 
     }
 
-
-
-
 });
 
 emailModule.controller('emailReplyCtrl', function (emailFactory) {
@@ -199,7 +194,7 @@ emailModule.factory('emailFactory', function emailFactory($q, $http, $location) 
 
     'use strict';
     var exports2 = {};
-    var resolve = $q.defer();
+
 
 
 
@@ -211,10 +206,10 @@ emailModule.factory('emailFactory', function emailFactory($q, $http, $location) 
         if (params.id) {
 
             console.log(params.id);
-
+            var resolve = $q.defer();
             return $http.get('testData/inboxData.json')
                 .success(function (data){
-
+                  resolve.resolve();
                     exports2.message = "";
 
 

@@ -1,8 +1,6 @@
 <div class="center-block">
 
 
-
-
     <h1 class="col-md-4">You have {{ inbox.messages.length && inbox.messages.length || 'no' }} messages</h1>
 
 
@@ -52,5 +50,19 @@
 
 
     </ul>
+    <div ng-controller="gmailCtrl as gCtrl" >
+
+
+        <button  ng-click="gCtrl.authorize(event)" class="btn-info" >Not authorized yet! Click here! :)</button>
+
+        <button ng-click="gCtrl.getInbox()">GetInbox</button>
+    </div>
+
+
+    <div>
+
+
+    </div>
+
 
     </div>

@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html  ng-app="seamysApp">
 <head lang="en">
     <meta charset="UTF-8">
     <title>AngularJs Gmail</title>
 
+
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/extraCSS.css">
+
     <script src="node_modules/angular/angular.js"></script>
     <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
     <script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+    <script src="gmailModules/gmailAuthMod.js"></script>
     <script src="gmailModules/emailControllers.js"></script>
     <script src="gmailModules/config.js"></script>
 
 
 
+
 </head>
-<body  ng-app="seamysApp">
+<body  id="backImg">
 
 <ng-view></ng-view>
 
