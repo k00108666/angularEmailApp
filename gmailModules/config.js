@@ -3,7 +3,7 @@
  */
 
 
-angular.module('seamysApp', ['ngRoute', 'emailMod', 'gmailMod'])
+angular.module('seamysApp', ['ngRoute', 'smart-table', 'emailMod', 'gmailMod'])
 
 .config(function($routeProvider) {
 

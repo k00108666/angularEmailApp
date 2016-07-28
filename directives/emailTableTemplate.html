@@ -1,0 +1,57 @@
+<div>
+
+    <ul>
+
+        <li class="list-group-item-heading" ng-show="!inbox.messages.length">
+            You have no emails to show
+        </li>
+
+        <div class="row">
+            <div class="col-md-6">3
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>From</th>
+                        <th>Date</th>
+                        <th>Subject</th>
+                        <th>Message ID</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="list-group-item-text" ng-repeat="message in gmail.messages | filter :{From : inbox.search}">
+                        <td>{{message.From}}</td>
+                        <td>{{message.Date | date: 'dd/mm/yy'}}</td>
+                        <td>{{message.snippet}}</td>
+                        <td>{{message.id}}</td>
+                        <td><button type="button" ng-click="inbox.goToMessage(message.id)" class="btn btn-info">Read</button></td>
+                        <td><button type="button"  ng-click="inbox.deleteMessage(id, $index);" class="btn btn-danger">Delete</button></td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+
+
+
+    </ul>
+    <div ng-controller="gmailCtrl as gCtrl" >
+
+
+        <button  ng-click="gCtrl.authorize(event)" class="btn-info" >Not authorized yet! Click here! :)</button>
+
+        <button ng-click="gCtrl.getInbox()">GetInbox</button>
+    </div>
+
+
+    <div>
+
+
+    </div>
+
+
+
+</div>

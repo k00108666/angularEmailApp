@@ -27,36 +27,22 @@
       <file leaf-file-name="emailControllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gmailModules/emailControllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="1496">
-              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="980" max-vertical-offset="3009">
+              <caret line="192" column="80" selection-start-line="192" selection-start-column="80" selection-end-line="192" selection-end-column="80" />
               <folding>
-                <element signature="e#176#434#0" expanded="false" />
-                <element signature="e#515#1010#0" expanded="false" />
-                <element signature="e#624#785#0" expanded="false" />
-                <element signature="e#835#890#0" expanded="false" />
-                <element signature="e#929#977#0" expanded="false" />
-                <element signature="e#1097#1820#0" expanded="false" />
                 <element signature="e#1186#1605#0" expanded="false" />
-                <element signature="e#1652#1702#0" expanded="false" />
-                <element signature="e#1744#1795#0" expanded="false" />
-                <element signature="e#1874#2101#0" expanded="false" />
-                <element signature="e#2192#2384#0" expanded="false" />
-                <element signature="e#2443#2668#0" expanded="false" />
-                <element signature="e#2729#2956#0" expanded="false" />
-                <element signature="e#3025#3029#0" expanded="false" />
+                <element signature="e#3113#4104#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inboxDirectiveTemplate.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directives/inboxDirectiveTemplate.html">
+      <file leaf-file-name="emailTableTemplate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/directives/emailTableTemplate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9230769" vertical-offset="196" max-vertical-offset="1207">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-              <folding>
-                <element signature="n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-8.576923" vertical-offset="185" max-vertical-offset="1054">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,15 +50,30 @@
       <file leaf-file-name="gmailAuthMod.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gmailModules/gmailAuthMod.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9264448" vertical-offset="1477" max-vertical-offset="2771">
-              <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.49595687" vertical-offset="241" max-vertical-offset="612">
+              <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
               <folding>
-                <element signature="e#891#1150#0" expanded="false" />
-                <element signature="e#1159#1295#0" expanded="false" />
-                <element signature="e#1392#1538#0" expanded="false" />
-                <element signature="e#1892#2065#0" expanded="false" />
-                <element signature="e#2074#2182#0" expanded="false" />
+                <element signature="e#135#353#0" expanded="false" />
+                <element signature="e#421#699#0" expanded="false" />
+                <element signature="e#890#4375#0" expanded="false" />
+                <element signature="e#1254#1513#0" expanded="false" />
+                <element signature="e#1522#1658#0" expanded="false" />
+                <element signature="e#1755#1901#0" expanded="false" />
+                <element signature="e#2255#2428#0" expanded="false" />
+                <element signature="e#2437#2545#0" expanded="false" />
+                <element signature="e#4426#5130#0" expanded="false" />
+                <element signature="e#4697#5118#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inbox.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/inbox.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,11 +100,12 @@
         <option value="$PROJECT_DIR$/directives/forwardDirectiveTemplate.html" />
         <option value="$PROJECT_DIR$/css/extraCSS.css" />
         <option value="/AngularJS Fragment (inboxDirectiveTemplate.html:1723).js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/directives/authenticateDirectiveTemplate.html" />
-        <option value="$PROJECT_DIR$/gmailModules/emailControllers.js" />
         <option value="$PROJECT_DIR$/gmailModules/config.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/directives/inboxDirectiveTemplate.html" />
+        <option value="$PROJECT_DIR$/gmailModules/emailControllers.js" />
+        <option value="$PROJECT_DIR$/directives/emailTableTemplate.html" />
         <option value="$PROJECT_DIR$/gmailModules/gmailAuthMod.js" />
       </list>
     </option>
@@ -173,38 +175,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularJsGmailApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularJsGmailApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularJsGmailApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularJsGmailApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-ui-bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,16 +335,16 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43948564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45310137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3267974" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -427,61 +397,26 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/gmailModules/emailControllers.js</url>
-          <line>74</line>
+          <line>1</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/gmailModules/emailControllers.js</url>
-          <line>135</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/gmailModules/emailControllers.js</url>
-          <line>192</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/gmailModules/emailControllers.js</url>
-          <line>188</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/gmailModules/emailControllers.js</url>
-          <line>52</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/gmailModules/emailControllers.js</url>
-          <line>105</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/gmailModules/emailControllers.js</url>
-          <line>66</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/gmailModules/emailControllers.js</url>
-          <line>154</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/gmailModules/gmailAuthMod.js</url>
-          <line>30</line>
+          <line>48</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/gmailModules/emailControllers.js</url>
-          <line>30</line>
-          <option name="timeStamp" value="22" />
+          <url>file://$PROJECT_DIR$/gmailModules/gmailAuthMod.js</url>
+          <line>54</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/gmailModules/gmailAuthMod.js</url>
-          <line>34</line>
-          <option name="timeStamp" value="23" />
+          <line>176</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -490,7 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -498,7 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -506,7 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -514,7 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="408">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,9 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1394">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,9 +468,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="1088">
           <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -551,20 +477,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#176#434#0" expanded="false" />
-            <element signature="e#515#1010#0" expanded="false" />
-            <element signature="e#624#785#0" expanded="false" />
-            <element signature="e#835#890#0" expanded="false" />
-            <element signature="e#929#977#0" expanded="false" />
-            <element signature="e#1097#1820#0" expanded="false" />
             <element signature="e#1186#1605#0" expanded="false" />
-            <element signature="e#1652#1702#0" expanded="false" />
-            <element signature="e#1744#1795#0" expanded="false" />
-            <element signature="e#1874#2101#0" expanded="false" />
-            <element signature="e#2192#2384#0" expanded="false" />
-            <element signature="e#2443#2668#0" expanded="false" />
-            <element signature="e#2729#2956#0" expanded="false" />
-            <element signature="e#3025#3029#0" expanded="false" />
+            <element signature="e#3113#4104#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -573,7 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="527">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,7 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,7 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="408">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,9 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1394">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,9 +523,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1088">
           <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -626,20 +532,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="2108">
           <caret line="186" column="19" selection-start-line="186" selection-start-column="19" selection-end-line="186" selection-end-column="19" />
           <folding>
-            <element signature="e#176#434#0" expanded="false" />
-            <element signature="e#515#1010#0" expanded="false" />
-            <element signature="e#624#785#0" expanded="false" />
-            <element signature="e#835#890#0" expanded="false" />
-            <element signature="e#929#977#0" expanded="false" />
-            <element signature="e#1097#1820#0" expanded="false" />
             <element signature="e#1186#1605#0" expanded="false" />
-            <element signature="e#1652#1702#0" expanded="false" />
-            <element signature="e#1744#1795#0" expanded="false" />
-            <element signature="e#1874#2101#0" expanded="false" />
-            <element signature="e#2192#2384#0" expanded="false" />
-            <element signature="e#2443#2668#0" expanded="false" />
-            <element signature="e#2729#2956#0" expanded="false" />
-            <element signature="e#3025#3029#0" expanded="false" />
+            <element signature="e#3113#4104#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -648,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,20 +564,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2108">
           <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
           <folding>
-            <element signature="e#176#434#0" expanded="false" />
-            <element signature="e#515#1010#0" expanded="false" />
-            <element signature="e#624#785#0" expanded="false" />
-            <element signature="e#835#890#0" expanded="false" />
-            <element signature="e#929#977#0" expanded="false" />
-            <element signature="e#1097#1820#0" expanded="false" />
             <element signature="e#1186#1605#0" expanded="false" />
-            <element signature="e#1652#1702#0" expanded="false" />
-            <element signature="e#1744#1795#0" expanded="false" />
-            <element signature="e#1874#2101#0" expanded="false" />
-            <element signature="e#2192#2384#0" expanded="false" />
-            <element signature="e#2443#2668#0" expanded="false" />
-            <element signature="e#2729#2956#0" expanded="false" />
-            <element signature="e#3025#3029#0" expanded="false" />
+            <element signature="e#3113#4104#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -695,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,20 +582,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#176#434#0" expanded="false" />
-            <element signature="e#515#1010#0" expanded="false" />
-            <element signature="e#624#785#0" expanded="false" />
-            <element signature="e#835#890#0" expanded="false" />
-            <element signature="e#929#977#0" expanded="false" />
-            <element signature="e#1097#1820#0" expanded="false" />
             <element signature="e#1186#1605#0" expanded="false" />
-            <element signature="e#1652#1702#0" expanded="false" />
-            <element signature="e#1744#1795#0" expanded="false" />
-            <element signature="e#1874#2101#0" expanded="false" />
-            <element signature="e#2192#2384#0" expanded="false" />
-            <element signature="e#2443#2668#0" expanded="false" />
-            <element signature="e#2729#2956#0" expanded="false" />
-            <element signature="e#3025#3029#0" expanded="false" />
+            <element signature="e#3113#4104#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -726,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="391">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,20 +629,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#176#434#0" expanded="false" />
-            <element signature="e#515#1010#0" expanded="false" />
-            <element signature="e#624#785#0" expanded="false" />
-            <element signature="e#835#890#0" expanded="false" />
-            <element signature="e#929#977#0" expanded="false" />
-            <element signature="e#1097#1820#0" expanded="false" />
             <element signature="e#1186#1605#0" expanded="false" />
-            <element signature="e#1652#1702#0" expanded="false" />
-            <element signature="e#1744#1795#0" expanded="false" />
-            <element signature="e#1874#2101#0" expanded="false" />
-            <element signature="e#2192#2384#0" expanded="false" />
-            <element signature="e#2443#2668#0" expanded="false" />
-            <element signature="e#2729#2956#0" expanded="false" />
-            <element signature="e#3025#3029#0" expanded="false" />
+            <element signature="e#3113#4104#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -788,9 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1156">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,9 +646,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="204">
           <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -872,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70071685" vertical-offset="0" max-vertical-offset="558">
           <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28073394" vertical-offset="0" max-vertical-offset="545">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,14 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23817864" vertical-offset="0" max-vertical-offset="571">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/email.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59266055" vertical-offset="0" max-vertical-offset="595">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -912,14 +748,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03119266" vertical-offset="0" max-vertical-offset="545">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gmailModules/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1428">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="595">
+          <caret line="13" column="71" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -932,57 +774,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/views/email.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5302752" vertical-offset="0" max-vertical-offset="578">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6376812" vertical-offset="103" max-vertical-offset="595">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/directives/inboxDirectiveTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9230769" vertical-offset="196" max-vertical-offset="1207">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.49275362" vertical-offset="0" max-vertical-offset="357">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gmailModules/emailControllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="511" max-vertical-offset="1496">
-          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="980" max-vertical-offset="3009">
+          <caret line="192" column="80" selection-start-line="192" selection-start-column="80" selection-end-line="192" selection-end-column="80" />
           <folding>
-            <element signature="e#176#434#0" expanded="false" />
-            <element signature="e#515#1010#0" expanded="false" />
-            <element signature="e#624#785#0" expanded="false" />
-            <element signature="e#835#890#0" expanded="false" />
-            <element signature="e#929#977#0" expanded="false" />
-            <element signature="e#1097#1820#0" expanded="false" />
             <element signature="e#1186#1605#0" expanded="false" />
-            <element signature="e#1652#1702#0" expanded="false" />
-            <element signature="e#1744#1795#0" expanded="false" />
-            <element signature="e#1874#2101#0" expanded="false" />
-            <element signature="e#2192#2384#0" expanded="false" />
-            <element signature="e#2443#2668#0" expanded="false" />
-            <element signature="e#2729#2956#0" expanded="false" />
-            <element signature="e#3025#3029#0" expanded="false" />
+            <element signature="e#3113#4104#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/emailTableTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.576923" vertical-offset="185" max-vertical-offset="1054">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gmailModules/gmailAuthMod.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9264448" vertical-offset="1477" max-vertical-offset="2771">
-          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.49595687" vertical-offset="241" max-vertical-offset="612">
+          <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
           <folding>
-            <element signature="e#891#1150#0" expanded="false" />
-            <element signature="e#1159#1295#0" expanded="false" />
-            <element signature="e#1392#1538#0" expanded="false" />
-            <element signature="e#1892#2065#0" expanded="false" />
-            <element signature="e#2074#2182#0" expanded="false" />
+            <element signature="e#135#353#0" expanded="false" />
+            <element signature="e#421#699#0" expanded="false" />
+            <element signature="e#890#4375#0" expanded="false" />
+            <element signature="e#1254#1513#0" expanded="false" />
+            <element signature="e#1522#1658#0" expanded="false" />
+            <element signature="e#1755#1901#0" expanded="false" />
+            <element signature="e#2255#2428#0" expanded="false" />
+            <element signature="e#2437#2545#0" expanded="false" />
+            <element signature="e#4426#5130#0" expanded="false" />
+            <element signature="e#4697#5118#0" expanded="false" />
           </folding>
         </state>
       </provider>

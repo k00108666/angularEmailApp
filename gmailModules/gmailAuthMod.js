@@ -3,22 +3,40 @@
  */
 var gmailMod =  angular.module('gmailMod', []);
 
+gmailMod.directive('gmailTable', function() {
 
+
+    return{
+
+
+        restrict: 'EA',
+        replace: true,
+        scope: true,
+        templateUrl: 'directives/emailTableTemplate.html',
+        controller: 'gmailCtrl',
+        controllerAs: 'gmail'
+
+    }
+
+
+});
 
 gmailMod.controller('gmailCtrl',function gmailCtrl(gmailFactory){
-
+    this.messages = gmailFactory.receivedMessages;
 
        this.authorize = function(){
 
            console.log("clicking");
            gmailFactory.gmailAuthorize();
+
        };
 
         this.getInbox = function() {
 
-            gmailFactory.getInbox();
+            console.log(this.messages[1]);
 
         }
+
 
 
 
@@ -30,6 +48,8 @@ gmailMod.controller('gmailCtrl',function gmailCtrl(gmailFactory){
 
 gmailMod.factory('gmailFactory', function gmailFactory(){
     var gmailExports = {};
+    gmailExports.receivedMessages = [];
+
 
 
    gmailExports.gmailAuthorize = function gmail(event) {
@@ -137,7 +157,13 @@ gmailMod.factory('gmailFactory', function gmailFactory(){
 
                for(var x = 0; x<=gmailExports.messages.length; x++) {
 
-               console.log("current message", gmailExports.messages[x]);
+
+                   var messageRequest = gapi.client.gmail.users.messages.get({
+                       'userId': 'me',
+                       'id': gmailExports.messages[x].id
+                   });
+
+                   messageRequest.execute(appendMessageRow);
 
 
                }
@@ -145,6 +171,13 @@ gmailMod.factory('gmailFactory', function gmailFactory(){
 
 
            });
+       }
+
+
+       function appendMessageRow (message){
+
+        gmailExports.receivedMessages.push(message);
+
        }
 
 
@@ -178,6 +211,11 @@ gmailMod.factory('gmailFactory', function gmailFactory(){
 
     };
 
+    gmailExports.getHeaders = function getHeaders(headers, index){
 
+
+
+
+    };
     return gmailExports;
 });
