@@ -22,20 +22,24 @@ gmailMod.directive('gmailTable', function() {
 });
 
 gmailMod.controller('gmailCtrl',function gmailCtrl(gmailFactory){
+
+    var emailNum = 0;
+
     this.messages = gmailFactory.receivedMessages;
 
-       this.authorize = function(){
+    this.authorize = function(){
 
            console.log("clicking");
            gmailFactory.gmailAuthorize();
 
        };
 
-        this.getInbox = function() {
+    this.getMail = function() {
+        var oldNum = emailNum;
+        emailNum = emailNum + 10;
+        gmailFactory.getMail(emailNum, oldNum);
 
-            console.log(this.messages[1]);
-
-        }
+    };
 
 
 
@@ -52,14 +56,12 @@ gmailMod.factory('gmailFactory', function gmailFactory(){
 
 
 
-   gmailExports.gmailAuthorize = function gmail(event) {
-       console.log("entering authorization");
-       var CLIENT_ID = '228281290720-vnh3s84bnht5mrglpafggne34edpi1a7.apps.googleusercontent.com';
 
+   gmailExports.gmailAuthorize = function gmail(event) {
+
+       var CLIENT_ID = '228281290720-vnh3s84bnht5mrglpafggne34edpi1a7.apps.googleusercontent.com';
        var SCOPES = ['https://www.googleapis.com/auth/gmail.compose'];
    handleAuthClick(event);
-
-
 
        /**
         * Check if current user has authorized this application.
@@ -110,75 +112,16 @@ gmailMod.factory('gmailFactory', function gmailFactory(){
         * is loaded.
         */
        function loadGmailApi() {
-           gapi.client.load('gmail', 'v1', listLabels);
+           gapi.client.load('gmail', 'v1');
        }
 
        /**
         * Print all Labels in the authorized user's inbox. If no labels
         * are found an appropriate message is printed.
         */
-       function listLabels() {
-           var request = gapi.client.gmail.users.labels.list({
-               'userId': 'me'
-           });
-
-           request.execute(function(resp) {
-               var labels = resp.labels;
-                this.lables = labels;
-
-               if (labels && labels.length > 0) {
-                   for (i = 0; i < labels.length; i++) {
-                       var label = labels[i];
-                       console.log(label.name)
-
-                   }
-               } else {
-                   console.log('No Labels found.');
-               }
-
-               displayInbox();
-           });
-       }
-
-       function displayInbox() {
-           console.log("entering display inbox");
-           var request = gapi.client.gmail.users.messages.list({
-               'userId': 'me',
-               'labelIds': 'INBOX',
-               'maxResults': 10
-           });
-
-           request.execute(function(response) {
-
-
-              gmailExports.messages = response.messages;
-               console.log("entered request.excuse", gmailExports.messages);
-
-
-               for(var x = 0; x<=gmailExports.messages.length; x++) {
-
-
-                   var messageRequest = gapi.client.gmail.users.messages.get({
-                       'userId': 'me',
-                       'id': gmailExports.messages[x].id
-                   });
-
-                   messageRequest.execute(appendMessageRow);
-
-
-               }
 
 
 
-           });
-       }
-
-
-       function appendMessageRow (message){
-
-        gmailExports.receivedMessages.push(message);
-
-       }
 
 
 
@@ -213,9 +156,47 @@ gmailMod.factory('gmailFactory', function gmailFactory(){
 
     gmailExports.getHeaders = function getHeaders(headers, index){
 
+    };
 
+    gmailExports.getMail = function getMail(maxResults, currentResultSize){
+
+
+        console.log("entering display inbox");
+        var request = gapi.client.gmail.users.messages.list({
+            'userId': 'me',
+            'labelIds': 'INBOX',
+            'maxResults': maxResults
+        });
+
+        request.execute(function(response) {
+
+
+            gmailExports.messages = response.messages;
+
+
+
+            for(var x = currentResultSize; x<=gmailExports.messages.length; x++) {
+
+
+                var messageRequest = gapi.client.gmail.users.messages.get({
+                    'userId': 'me',
+                    'id': gmailExports.messages[x].id
+                });
+
+                messageRequest.execute(appendMessageRow);
+            }
+        });
+
+
+
+        function appendMessageRow (message){
+            console.log("new email", message);
+            gmailExports.receivedMessages.push(message);
+
+        }
 
 
     };
+
     return gmailExports;
 });

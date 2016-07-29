@@ -2,11 +2,11 @@
 
     <ul>
 
-        <li class="list-group-item-heading" ng-show="!inbox.messages.length">
+        <li class="list-group-item-heading" ng-show="!gmail.messages.length">
             You have no emails to show
         </li>
 
-        <div class="row">
+        <div st-table="gmail.messages" class="table table-striped">
             <div class="col-md-6">3
                 <table class="table">
                     <thead>
@@ -40,10 +40,9 @@
     </ul>
     <div ng-controller="gmailCtrl as gCtrl" >
 
-
         <button  ng-click="gCtrl.authorize(event)" class="btn-info" >Not authorized yet! Click here! :)</button>
 
-        <button ng-click="gCtrl.getInbox()">GetInbox</button>
+        <button ng-click="gCtrl.getMail()">GetInbox</button>
     </div>
 
 
