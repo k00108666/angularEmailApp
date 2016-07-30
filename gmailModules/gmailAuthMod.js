@@ -87,7 +87,6 @@ gmailMod.factory('gmailFactory', function gmailFactory(){
                // Hide auth UI, then load client library.
 
                loadGmailApi();
-               console.log("handleAuth");
            } else {
                // Show auth UI, allowing the user to initiate authorization by
                // clicking authorize button.
@@ -121,38 +120,9 @@ gmailMod.factory('gmailFactory', function gmailFactory(){
         */
 
 
-
-
-
-
-
    };
 
-    gmailExports.getInbox =  function getInbox(){
 
-            console.log("executing");
-
-
-            var request = gapi.client.gmail.users.messages.list({
-                'userId': 'me',
-                'labelIds': 'INBOX',
-                'maxResults': 10
-            });
-
-            request.execute(function(resp) {
-                var content = document.getElementById("message-list");
-                angular.forEach(resp, function(message) {
-                    var email = gapi.client.gmail.users.messages.get({'id': message.id});
-                    // var raw = email.payload.parts;
-                    // console.log(raw);
-                    content.innerHTML += JSON.stringify(email) + "<br>";
-                })
-            });
-
-
-
-
-    };
 
     gmailExports.getHeaders = function getHeaders(headers, index){
 
@@ -173,16 +143,12 @@ gmailMod.factory('gmailFactory', function gmailFactory(){
 
             gmailExports.messages = response.messages;
 
-
-
             for(var x = currentResultSize; x<=gmailExports.messages.length; x++) {
-
-
                 var messageRequest = gapi.client.gmail.users.messages.get({
                     'userId': 'me',
                     'id': gmailExports.messages[x].id
                 });
-
+                console.log(messageRequest);
                 messageRequest.execute(appendMessageRow);
             }
         });
@@ -198,5 +164,7 @@ gmailMod.factory('gmailFactory', function gmailFactory(){
 
     };
 
+
     return gmailExports;
 });
+

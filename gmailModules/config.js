@@ -3,72 +3,34 @@
  */
 
 
-angular.module('seamysApp', ['ngRoute', 'smart-table', 'emailMod', 'gmailMod'])
+angular.module('seamysApp', ['ui.router', 'smart-table', 'emailMod', 'gmailMod'])
 
-.config(function($routeProvider) {
+.config(function($stateProvider, $urlRouterProvider) {
 
             'use strict';
 
-        $routeProvider
+        $urlRouterProvider.otherwise("/inbox.html");
 
+        $stateProvider
+            .state('index', {
+                url: "/index",
+                templateUrl: 'angularJsGmailApp/views/inbox.html',
+                controller: 'inboxCtrl',
+                controllerAs: 'inbox'
+            })
+            .state('emailId', {
 
-            .when('/index.html', {
-
+                templateUrl: 'angularJsGmailApp/views/email.html',
+                controller: 'inboxCtrl',
+                controllerAs: 'inbox'
+            })
+            .state('inbox', {
+                url: '/inbox.html',
                 templateUrl: 'views/inbox.html',
                 controller: 'inboxCtrl',
                 controllerAs: 'inbox'
 
-
-
-
-
             })
-
-
-
-            .when('/inbox/email/:id', {
-
-
-                templateUrl: 'views/email.html',
-                controller: 'inboxCtrl',
-                controllerAs: 'inbox'
-
-
-
-            })
-
-
-
-            .when('/inbox.html', {
-
-
-                templateUrl: 'views/inbox.html',
-                controller: 'inboxCtrl',
-                controllerAs: 'inbox'
-
-
-            })
-
-            .when('/sentBox', {
-
-
-                templateUrl: 'views/email.html',
-                controller: 'senboxCtrl',
-                controllerAs: 'sentbox'
-
-
-
-
-            })
-
-            .otherwise({
-
-                redirectTo: '/inbox.html'
-
-
-            })
-
-
 
 
 

@@ -7,3 +7,19 @@
     background-size: 100% auto;
 
 }
+
+#sts-container {
+    overflow-y: scroll;
+    position: relative;
+    max-height: 500px;
+    /* scroll container also needs a fixed/defined height */
+}
+#sts-container .sts-row {
+    position: absolute;
+}
+#sts-container .sts-bottom-anchor {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+}
+
