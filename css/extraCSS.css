@@ -6,12 +6,14 @@
     background: url("https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/19995_1098752220151773_733287139376726310_n.jpg?oh=56b4c29829b71f33d501db743ea481a1&oe=58371CDC");
     background-size: 100% auto;
 
+
 }
 
 #sts-container {
     overflow-y: scroll;
     position: relative;
     max-height: 500px;
+
     /* scroll container also needs a fixed/defined height */
 }
 #sts-container .sts-row {

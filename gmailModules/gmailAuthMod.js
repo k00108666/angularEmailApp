@@ -22,6 +22,25 @@ gmailMod.directive('gmailTable', function() {
 });
 
 gmailMod.controller('gmailCtrl',function gmailCtrl(gmailFactory){
+    var scrolled = false;
+
+
+    document.getElementById("sts-container").onscroll = function(scrolled){
+        gmailFactory.tblScrolled(scrolled);
+        console.log("new scrolled value", scrolled);
+
+           if(scrolled = true) {
+
+               var oldNum = emailNum;
+               emailNum = emailNum + 10;
+               gmailFactory.getMail(emailNum, oldNum);
+
+
+           }
+
+        };
+
+    this.search = "";
 
     var emailNum = 0;
 
@@ -38,6 +57,13 @@ gmailMod.controller('gmailCtrl',function gmailCtrl(gmailFactory){
         var oldNum = emailNum;
         emailNum = emailNum + 10;
         gmailFactory.getMail(emailNum, oldNum);
+
+    };
+
+    this.tblScrolled = function() {
+    console.log(this.search);
+      gmailFactory.tblScrolled();
+
 
     };
 
@@ -158,6 +184,18 @@ gmailMod.factory('gmailFactory', function gmailFactory(){
         function appendMessageRow (message){
             console.log("new email", message);
             gmailExports.receivedMessages.push(message);
+
+        }
+
+
+    };
+
+    gmailExports.tblScrolled = function (){
+
+        var table = document.getElementById("sts-container");
+        if(table.scrollTop + table.offsetHeight >= table.scrollHeight ){
+
+
 
         }
 

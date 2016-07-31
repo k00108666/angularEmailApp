@@ -7,9 +7,10 @@
         </li>
 
         <div st-table="gmail.messages" class="table table-striped" id="sts-container">
-            <div class="col-md-6">
+            <div>
                 <table class="table">
                     <thead>
+                    <tr><input placeholder="search" ng-model="search" onscroll="tblScroll"></tr>
                     <tr>
                         <th>From</th>
                         <th>Date</th>
@@ -18,7 +19,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr class="list-group-item-text" ng-repeat="message in gmail.messages | filter :{From : inbox.search}">
+                    <tr class="list-group-item-text" ng-repeat="message in gmail.messages | filter : gmail.search : true">
                         <td>{{message.From}}</td>
                         <td>{{message.Date | date: 'dd/mm/yy'}}</td>
                         <td>{{message.snippet}}</td>
